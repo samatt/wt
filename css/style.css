@@ -1,22 +1,22 @@
 .header-box{
     color:#000000;
     text-align: left;
-    margin-to: 1em;
+    margin-top: 1em;
     padding-top: 0.5em;
 }
 .title-box{
     width:100%;
     margin-bottom: 5%;
     background-color: #FFF;
-    padding-left: 0.4em;
-    font-size: 1.2em;
-    /*padding: 1em 1em 1em 1em;*/
+    /*padding-left: 0.4em;*/
+    /*font-size: 1.2em;*/
+    padding: 0.2em 0.2em 0.2em 0.2em;
   }
   .description-box{
     width:100%;
     margin-bottom: 5%;
     background-color: #FFF;
-    padding: 1em 1em 1em 1em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
   }
 
   a{
@@ -26,7 +26,10 @@
     color: #5CE5FF;
     padding: 0.2em 0.2em 0.2em 0.2em;
   }
-
+  .alt-a{
+    color: #E6FF00;
+    /*padding: 0.2em 0.2em 0.2em 0.2em;*/
+  }
   em{
     /*color: #00BBFF;*/
     color: #E6FF00;
