@@ -33,8 +33,8 @@
   }
   
   .icons{
-    background-color: black;
-    padding: 0em;
+    /*background-color: none;*/
+    padding: 0.6em 0.4em 0.4em 0.4em;
     /*margin: 5em;*/
     /*text-align: center;*/
 
@@ -43,9 +43,9 @@
 
   .i{
     width: 16px;
-    background-color: black;
-    padding-top: 0.3em;
-    padding-left: 0.38em;
+    /*background-color: black;*/
+    /*padding-top: 1em;*/
+    /*padding-left: 0.2em;*/
   }
 
   em{
