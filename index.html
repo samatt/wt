@@ -30,7 +30,7 @@
 </head>
 <style type="text/css">
   body{
-    background-image: url("https://dl.dropboxusercontent.com/u/1108171/website-images/drill.gif");
+    /*background-image: url("https://dl.dropboxusercontent.com/u/1108171/website-images/drill.gif");*/
     background-size: cover;
     width:100%;
   }
@@ -75,30 +75,50 @@
   ga('send', 'pageview');
 
 </script>
+<script type="text/javascript">
+
+var totalCount = 6;
+function ChangeIt()
+{
+var num = Math.ceil( Math.random() * totalCount );
+if( num === 2){
+  document.body.background = 'images/bg/'+num+'.gif';
+  document.body.style.backgroundRepeat = "repeat";// Background repeat
+}
+else if(num === 5 || num === 6){
+  document.body.background = 'images/bg/'+num+'.png';
+  document.body.style.backgroundRepeat = "repeat";// Background repeat
+}
+else{
+  document.body.background = 'images/bg/'+num+'.jpg';
+  document.body.style.backgroundRepeat = "repeat";// Background repeat
+}
+
+}
+ChangeIt()
+</script>
+
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container" style="margin: 12% 2% 2% 2%;">
-    <div class="row" >
+<!--     <div class="row" >
       &nbsp;
-    </div>
+    </div> -->
     <div class="row" >
       <div class="eight columns" >
         <div class='description-box'>
-          Hi! My name is Surya Mattu,
-          </div>
-          <div class='description-box'>
+          Hi! My name is Surya Mattu.
           I'm an artist and engineer based in Brooklyn.
           </br>
-          If you're looking for my personal work you'll find it <a href="http://samatt.github.io">here</a>.
-          </br>
-          Other publications, talks, resources etc. are linked to at the end.
+          If you're looking for my work you'll find it <a href="http://samatt.github.io">here</a>.
           </div>
           <div class='description-box'>
            I am currently a fellow at <a href="http://datasociety.net" class="alt-a">Data&Society</a>
           where I have been investigating the different ways in which our wireless devices leak our data.
-          </br>
+          </div>
+          <div class='description-box'>
           I am also a contributing researcher at <a href="https://www.propublica.org/site/author/surya_mattu" class="alt-a">ProPublica</a>
           and have been working on a series called <a href="https://www.propublica.org/series/machine-bias">Machine Bias</a> that aims to highlight how algorithmic systems can be biased and discriminate aginst people.
         </div>
@@ -119,11 +139,11 @@
 </div>
 
 </div>
-<div class="row">
+<!-- <div class="row">
   <div class="six columns row3" >
     <a href="http://samatt.github.io">Work</a> &nbsp|&nbsp <a href="publications.html">Publications</a> &nbsp|&nbsp <a href="talks.html">Talks</a> &nbsp|&nbsp <a href="teaching.html">Teaching</a> &nbsp|&nbsp <a href="tutorials.html">Tutorials</a>
   </div>
-</div>
+</div> -->
 
 <div class="row">
   <!-- <div class ="nine columns icons" ></div> -->
