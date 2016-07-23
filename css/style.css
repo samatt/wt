@@ -20,17 +20,18 @@
   }
 
   a{
-    text-decoration: none;  
+    text-decoration: none;
     font-style: italic;
     background-color: #000000;
     color: #5CE5FF;
     padding: 0.2em 0.2em 0.2em 0.2em;
   }
-  
+
   .alt-a{
     color: #E6FF00;
+    padding: 0.1em;
   }
-  
+
   .icons{
     padding: 0.6em 0.4em 0.4em 0.4em;
   }
